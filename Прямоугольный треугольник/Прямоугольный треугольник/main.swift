@@ -7,9 +7,9 @@
 
 import Foundation
 // катеты прямоугольного треугольника
-var a = 3
-var b = 4
-var c = sqrt(Double(a*a) + Double(b*b))
+var a = 3 //Первый катет
+var b = 4 //Второй катет
+var c = sqrt(Double(a*a) + Double(b*b)) //Гипотенуза 
 
 print("Гипотенуза треугольника = \(c)")
 
